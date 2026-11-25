@@ -2,8 +2,8 @@
 
 A responsive, lightweight personal portfolio website built with vanilla HTML5, CSS3, and JavaScript to showcase full-stack web development projects, technical skills, and resume details.
 
-[![Live Demo]]
-(https://your-live-portfolio-url.com)
+Live Demo : <br>
+https://vivek-kulkarni-website.netlify.app/
 
 ---
 
