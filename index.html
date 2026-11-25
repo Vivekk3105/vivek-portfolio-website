@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0E1411" />
+    <title>Vivek Kulkarni | Web Developer &amp; MERN Stack Developer</title>
+    <meta name="description" content="Portfolio of Vivek Kulkarni, a Web Developer and B.Tech Computer Science graduate. Responsive front ends, MERN stack applications, REST APIs and Generative AI integration." />
+    <meta name="author" content="Vivek Kulkarni" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vivek Kulkarni | Web Developer &amp; MERN Stack Developer" />
+    <meta property="og:description" content="Design-minded developer. Responsive web apps and MERN stack projects, from wireframes to REST APIs." />
+    <meta property="og:image" content="assets/images/profile-img.jpg" />
+    <!-- 'js' class gates every hidden "before reveal" state, so content stays visible if scripts fail -->
+    <script> document.documentElement.classList.add("js"); </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href=
+      "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" 
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="-22% 0px -68% 0px" data-bs-threshold="0,1" tabindex="0">
+    
+    <!-- NAVIGATION -->
+    
+    <nav class="navbar navbar-expand-lg fixed-top site-nav" id="siteNav">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Vivek Kulkarni</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="burger" aria-hidden="true">
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <a class="btn btn-sm btn-outline-forest btn-resume" href="assets/documents/Vivek_Kulkarni_Resume.pdf" 
+              download > Download Resume <span class="ico ico-dl" aria-hidden="true"></span> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span class="scroll-progress" aria-hidden="true"></span>
+    </nav>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <span class="hero-rule" aria-hidden="true"></span>
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7 order-2 order-lg-1">
+              <p class="status-pill hero-in" style="--t: 0.1s"> 
+                <span class="dot"></span>Open to suitable entry-level opportunities 
+              </p>
+              <h1> 
+                <span class="line">
+                  <span style="--t: 0.2s">Design-minded developer.</span>
+                </span>
+                <span class="line">
+                  <span style="--t: 0.32s"><em class="hl">Built for the web.</em></span>
+                </span>
+              </h1>
+              <p class="lead hero-in" style="--t: 0.62s">
+                I'm Vivek, a Web Developer and B.Tech Computer Science graduate.
+                I turn wireframes and site maps into secure, responsive web
+                apps, and build MERN stack projects with REST APIs and
+                Generative AI features.
+              </p>
+              <div class="d-flex flex-wrap gap-2 hero-actions">
+                <a href="#projects" class="btn btn-forest hero-in" style="--t: 0.78s" >Explore My Work
+                  <span class="ico ico-down" aria-hidden="true"></span>
+                </a>
+                <a href="#contact" class="btn btn-outline-forest hero-in" style="--t: 0.86s" >Contact Me</a>
+                <a href="assets/documents/Vivek_Kulkarni_Resume.pdf" class="btn btn-link link-forest hero-in" 
+                style="--t: 0.94s" download > Download Resume
+                  <span class="ico ico-dl" aria-hidden="true"></span>
+                </a>
+              </div>
+              <dl class="hero-facts hero-in" style="--t: 1.05s">
+                <div>
+                  <dt>Focus</dt>
+                  <dd>Web Developer, Frontend &amp; MERN stack</dd>
+                </div>
+                <div>
+                  <dt>Education</dt>
+                  <dd>B.Tech CSE &middot; CGPA 7.1</dd>
+                </div>
+                <div>
+                  <dt>Based in</dt>
+                  <dd>Ichalkaranji, Maharashtra</dd>
+                </div>
+              </dl>
+            </div>
+            <div class="col-lg-5 order-1 order-lg-2">
+              <figure class="portrait hero-portrait">
+                <span class="portrait-frame" aria-hidden="true"></span>
+                <img src="assets/images/profile-img.jpg" alt="Portrait of Vivek Kulkarni in a navy suit" fetchpriority="high" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to the About section">
+          <span class="scroll-cue-label">Scroll</span>
+          <span class="scroll-cue-line" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <!-- ABOUT -->
+      
+      <section id="about" class="section">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-4 reveal-group">
+              <p class="eyebrow reveal">01 &mdash; About</p>
+              <h2 class="mask">
+                <span>Building the web, <em>end to end.</em></span>
+              </h2>
+              <span class="rule" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-7 offset-lg-1 reveal-group">
+              <p class="big reveal from-left">
+                Web Developer and B.Tech graduate in Computer Science and
+                Engineering, skilled in HTML5, CSS3, Bootstrap, JavaScript,
+                jQuery, CMS and the MERN stack.
+              </p>
+              <span class="rule rule-wide" aria-hidden="true"></span>
+              <p class="reveal">
+                I turn wireframes and site maps into secure, responsive web
+                apps. On the back end I develop secure RESTful APIs, optimize
+                database schemas and integrate Generative AI capabilities, with
+                foundational data engineering skills in SQL, Python and ETL.
+              </p>
+              <p class="reveal">
+                I have hands-on experience engineering production-level web
+                applications, including dynamic e-commerce platforms and
+                inventory management systems using React and the Context API.
+              </p>
+              <p class="reveal">
+                I recently completed a MERN Stack internship at InfyNow Software
+                Solutions LLP and I am looking for a Trainee Software Engineer or 
+                entry-level web developer role.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section section-sage">
+        <div class="container">
+          <div class="row g-5 mb-5">
+            <div class="col-lg-4 reveal-group">
+              <p class="eyebrow reveal">02 &mdash; Skills</p>
+              <h2 class="mask">
+                <span>Technical <em>skills</em></span>
+              </h2>
+              <span class="rule" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-7 offset-lg-1 reveal-group">
+              <p class="big reveal">
+                Strongest where the web starts: markup, styling and scripting,
+                extended into React, Node.js and databases.
+              </p>
+            </div>
+          </div>
+          <div class="core-skills row g-0 reveal-group">
+            <div class="col-6 col-lg reveal"><span>HTML5</span></div>
+            <div class="col-6 col-lg reveal"><span>CSS3</span></div>
+            <div class="col-6 col-lg reveal">
+              <span>JavaScript <small>ES6+</small></span>
+            </div>
+            <div class="col-6 col-lg reveal">
+              <span>Bootstrap <small>4 &amp; 5</small></span>
+            </div>
+            <div class="col-6 col-lg reveal"><span>React.js</span></div>
+            <div class="col-6 col-lg reveal"><span>Node.js</span></div>
+          </div>
+          <div class="row g-4 mt-4 reveal-group">
+            <div class="col-md-6 col-lg-4 reveal skill-group">
+              <h3>Frontend and web technologies</h3>
+              <ul class="chips">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap 4 &amp; 5</li>
+                <li>JavaScript (ES6+)</li>
+                <li>jQuery</li>
+                <li>PHP</li>
+                <li>React.js</li>
+                <li>React Hooks</li>
+                <li>State Management</li>
+                <li>Component Architecture</li>
+                <li>Responsive Web Design</li>
+                <li>Cross-Browser Compatibility</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal skill-group">
+              <h3>UI/UX, visual design and wireframing</h3>
+              <ul class="chips">
+                <li>Wireframes</li>
+                <li>User Flows</li>                
+                <li>Graphic Design</li>
+                <li>Figma</li>
+                <li>Canva</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal skill-group">
+              <h3>Backend, security and CMS</h3>
+              <ul class="chips">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>RESTful APIs</li>
+                <li>Error Handling</li>
+                <li>Web Application Security</li>
+                <li>JWT &amp; Cookie Authentication</li>
+                <li>CMS (WordPress / Headless CMS)</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal skill-group">
+              <h3>Databases and data</h3>
+              <ul class="chips">
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>Relational Databases</li>
+                <li>Schema Design</li>                
+                <li>ETL Fundamentals</li>                
+                <li>JSON/CSV Data Pipelines</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal skill-group">
+              <h3>AI and LLM integration</h3>
+              <ul class="chips">
+                <li>Generative AI Basics</li>
+                <li>Prompt Engineering Concepts</li>
+                <li>AI API Integration</li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-4 reveal skill-group">
+              <h3>Tools and practices</h3>
+              <ul class="chips">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>VS Code</li>
+                <li>Postman</li>
+                <li>Agile Collaboration</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="row g-5 mb-5">
+            <div class="col-lg-4 reveal-group">
+              <p class="eyebrow reveal">03 &mdash; Work</p>
+              <h2 class="mask">
+                <span>Featured <em>projects</em></span>
+              </h2>
+              <span class="rule" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-7 offset-lg-1 reveal-group">
+              <p class="big reveal">
+                Two responsive websites and two full-stack applications built
+                around the Google Gemini API.
+              </p>
+            </div>
+          </div>
+
+          <article class="project row g-4 g-lg-5 align-items-center">
+            <div class="col-lg-7">
+              <figure class="shot reveal-img">
+                <div class="shot-bar" aria-hidden="true">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <span>games-zone-online.netlify.app</span>
+                </div>
+                <div class="shot-view">
+                  <img src="assets/images/game-zone-prj.jpg" loading="lazy" decoding="async" alt="GameZone home page "/>
+                </div>
+              </figure>
+            </div>
+            <div class="col-lg-5 reveal-group project-text">
+              <span class="accent-line" aria-hidden="true"></span>
+              <p class="eyebrow reveal">01 &mdash; Responsive website</p>
+              <h3 class="reveal">GameZone Website</h3>
+              <p class="reveal">
+                A multi-game browser platform featuring Snake, 2048, Minesweeper
+                and Flappy Bird.
+              </p>
+              <ul class="points reveal">
+                <li>
+                  Designed and built the platform with smooth DOM manipulation
+                  and event handling.
+                </li>
+                <li>
+                  Mapped wireframes, user flows and responsive layouts using
+                  Bootstrap 5 and jQuery for seamless gameplay and cross-browser
+                  compatibility across desktop and mobile.
+                </li>
+                <li>
+                  Implemented client-side state management, score persistence
+                  and modular JavaScript architecture following front-end
+                  performance and security best practices.
+                </li>
+              </ul>
+              <ul class="chips reveal">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap 5</li>
+                <li>jQuery</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2 reveal">
+                <a class="btn btn-forest btn-sm" data-link="gameZoneLive" href="#" target="_blank" 
+                rel="noopener noreferrer" > Live Website
+                  <span class="ico ico-ne" aria-hidden="true"></span>
+                </a>
+                <a class="btn btn-outline-forest btn-sm" data-link="gameZoneCode" href="#" target="_blank" 
+                rel="noopener noreferrer" > Code Samples
+                  <span class="ico ico-code" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project row g-4 g-lg-5 align-items-center flip">
+            <div class="col-lg-7 order-lg-2">
+              <figure class="shot reveal-img">
+                <div class="shot-bar" aria-hidden="true">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <span>real-estasto.netlify.app</span>
+                </div>
+                <div class="shot-view">
+                  <img src="assets/images/estato-prj.jpg" loading="lazy" decoding="async" alt="Estato home page" />
+                </div>
+              </figure>
+            </div>
+            <div class="col-lg-5 order-lg-1 reveal-group project-text">
+              <span class="accent-line" aria-hidden="true"></span>
+              <p class="eyebrow reveal">02 &mdash; Responsive website</p>
+              <h3 class="reveal">
+                Estato &ndash; Real Estate Property Website
+              </h3>
+              <p class="reveal">
+                A real estate web portal for browsing, filtering and comparing
+                residential and commercial listings.
+              </p>
+              <ul class="points reveal">
+                <li>
+                  Created site maps, wireframes and process flows to design an
+                  intuitive portal.
+                </li>
+                <li>
+                  Developed a mobile-responsive interface with interactive
+                  property galleries, dynamic search filters and validated
+                  inquiry forms using Bootstrap, CSS3 and jQuery.
+                </li>
+                <li>
+                  CMS integration for property and content management and 
+                  User-friendly interface with responsive layouts
+                </li>
+              </ul>
+              <ul class="chips reveal">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2 reveal">
+                <a class="btn btn-forest btn-sm" data-link="estatoLive" href="#" target="_blank" 
+                rel="noopener noreferrer" >Live Website
+                  <span class="ico ico-ne" aria-hidden="true"></span>
+                </a>
+                <a class="btn btn-outline-forest btn-sm" data-link="estatoCode" href="#" target="_blank" 
+                rel="noopener noreferrer" >Code Samples
+                  <span class="ico ico-code" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </article>
+        
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process" class="section section-dark">
+        <div class="container">
+          <div class="row g-5 mb-5">
+            <div class="col-lg-4 reveal-group">
+              <p class="eyebrow reveal">04 &mdash; Process</p>
+              <h2 class="mask">
+                <span>How I build a <em>website</em></span>
+              </h2>
+              <span class="rule" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-7 offset-lg-1 reveal-group">
+              <p class="big reveal">
+                My development approach, from the first requirement to the final fix.
+              </p>
+            </div>
+          </div>
+          <ol class="steps">
+            <li class="reveal from-left">
+              <span class="n">01</span>
+              <div>
+                <h3>Understand the requirements</h3>
+                <p>Clarify the goal, the audience and what the page must do.</p>
+              </div>
+            </li>
+            <li class="reveal from-left">
+              <span class="n">02</span>
+              <div>
+                <h3>Plan structure and user journey</h3>
+                <p> Turn site maps, user flows and wireframes into a clear page structure </p>
+              </div>
+            </li>
+            <li class="reveal from-left">
+              <span class="n">03</span>
+              <div>
+                <h3>Establish the visual direction</h3>
+                <p> Choose type, colour and spacing so the interface feels consistent </p>
+              </div>
+            </li>
+            <li class="reveal from-left">
+              <span class="n">04</span>
+              <div>
+                <h3>Develop the responsive interface</h3>
+                <p> Write semantic HTML and CSS that adapts from phone to desktop. </p>
+              </div>
+            </li>
+            <li class="reveal from-left">
+              <span class="n">05</span>
+              <div>
+                <h3>Integrate application functionality</h3>
+                <p> Connect the interface to APIs, authentication and databases </p>
+              </div>
+            </li>
+            <li class="reveal from-left">
+              <span class="n">06</span>
+              <div>
+                <h3>Test, debug and refine</h3>
+                <p>Check across devices, fix issues and tune performance.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-4 reveal-group">
+              <p class="eyebrow reveal">05 &mdash; Experience</p>
+              <h2 class="mask">
+                <span><em>Experience</em></span>
+              </h2>
+              <span class="rule" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+              <div class="tl reveal-group">
+                <span class="tl-marker" aria-hidden="true"></span>
+                <h3 class="mb-1 reveal">MERN Stack Intern (Web Development)</h3>
+                <p class="meta mb-4 reveal">
+                  InfyNow Software Solutions LLP &middot; September 2025 &ndash;
+                  May 2026
+                </p>
+                <ul class="points reveal-group">
+                  <li class="reveal">
+                    Designed and built responsive, mobile-first web interfaces
+                    using HTML5, CSS3, Bootstrap, JavaScript and React.js
+                    following modern web development best practices.
+                  </li>
+                  <li class="reveal">
+                    Translated wireframes, user flows and site maps into
+                    accessible front-end layouts with consistent visual
+                    hierarchy and cross-browser compatibility.
+                  </li>
+                  <li class="reveal">
+                    Developed and tested RESTful APIs using Node.js and
+                    Express.js, ensuring smooth asynchronous frontend-backend
+                    communication.
+                  </li>
+                  <li class="reveal">
+                    Assisted in implementing secure authentication,
+                    authorization and API security principles for user
+                    management modules.
+                  </li>
+                  <li class="reveal">
+                    Optimized SQL and MongoDB queries, designed structured
+                    database schemas, and handled data ingestion and
+                    transformation across RESTful web services.
+                  </li>
+                  <li class="reveal">
+                    Collaborated with the development team in a fast-paced
+                    production environment to troubleshoot bugs, refine
+                    component architecture and improve user interfaces.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section section-sage">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-4 reveal-group">
+              <p class="eyebrow reveal">06 &mdash; Education</p>
+              <h2 class="mask">
+                <span>Education and <em>certifications</em></span>
+              </h2>
+              <span class="rule" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+              <div class="tl reveal-group">
+                <span class="tl-marker" aria-hidden="true"></span>
+                <h3 class="mb-1 reveal">
+                  B.Tech in Computer Science and Engineering
+                </h3>
+                <p class="meta mb-5 reveal">
+                  Sharad Institute of Technology College of Engineering,
+                  Ichalkaranji &middot; 2021 &ndash; 2025 &middot; CGPA 7.1/10
+                </p>
+                <h3 class="reveal">Certifications</h3>
+                <ul class="certs reveal-group">
+                  <li class="reveal">
+                    <span> MERN Full Stack Development <em>Infynow Solutions, 2025</em></span>
+                    <a data-link="certMern" href="#" target="_blank" rel="noopener noreferrer"> View certificate </a>
+                  </li>
+                  <li class="reveal">
+                    <span>Machine Learning for Engineering and Science Applications<em>NPTEL, 2025</em></span>
+                    <a data-link="certMl" href="#" target="_blank" rel="noopener noreferrer" >View certificate</a>
+                  </li>
+                  <li class="reveal">
+                    <span>Social Networks <em>NPTEL, 2025</em></span>
+                    <a data-link="certSocial" href="#" target="_blank" rel="noopener noreferrer">View certificate</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-dark">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5 reveal-group">
+              <p class="eyebrow reveal">07 &mdash; Contact</p>
+              <h2 class="mask">
+                <span>Have a project or opportunity in <em>mind?</em></span>
+              </h2>
+              <span class="rule" aria-hidden="true"></span>
+              <ul class="contact-list reveal-group">
+                <li class="reveal">
+                  <a href="mailto:kulkarnivivek8840@gmail.com">kulkarnivivek8840@gmail.com</a>
+                </li>
+                <li class="reveal">
+                  <a href="tel:+917020468950">+91-7020468950</a>
+                </li>
+                <li class="reveal">
+                  <a data-link="linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </li>
+                <li class="reveal">
+                  <a data-link="github" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li class="reveal">
+                  <a href="assets/documents/Vivek_Kulkarni_Resume.pdf" download>Resume &middot; Web Developer
+                    <span class="ico ico-dl" aria-hidden="true"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+              <form id="contactForm" class="reveal-group" novalidate>
+                <div class="mb-3 reveal">
+                  <label for="cName" class="form-label">Name</label>
+                  <input
+                    id="cName"
+                    name="name"
+                    class="form-control"
+                    required
+                    minlength="2"
+                    autocomplete="name" />
+                  <div class="invalid-feedback">
+                    Enter your name (at least 2 characters).
+                  </div>
+                </div>
+                <div class="mb-3 reveal">
+                  <label for="cEmail" class="form-label">Email</label>
+                  <input
+                    id="cEmail"
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    required
+                    autocomplete="email" />
+                  <div class="invalid-feedback">
+                    Enter a valid email address.
+                  </div>
+                </div>
+                <div class="mb-3 reveal">
+                  <label for="cSubject" class="form-label">Subject</label>
+                  <input
+                    id="cSubject"
+                    name="subject"
+                    class="form-control"
+                    required
+                    minlength="3" />
+                  <div class="invalid-feedback">
+                    Enter a subject (at least 3 characters).
+                  </div>
+                </div>
+                <div class="mb-3 reveal">
+                  <label for="cMessage" class="form-label">Message</label>
+                  <textarea
+                    id="cMessage"
+                    name="message"
+                    rows="5"
+                    class="form-control"
+                    required
+                    minlength="10">
+                  </textarea>
+                  <div class="invalid-feedback">
+                    Write a message of at least 10 characters.
+                  </div>
+                </div>
+                <div class="reveal">
+                  <button type="submit" class="btn btn-light">Open in my email app
+                    <span class="ico ico-right" aria-hidden="true"></span>
+                  </button>
+                </div>
+                <p
+                  id="formStatus"
+                  class="form-status"
+                  role="status"
+                  aria-live="polite">
+                </p>
+                <p class="meta small mb-0 reveal">
+                  This site has no mail server. The button opens your email app
+                  with the message filled in; you send it from there.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <strong>Vivek Kulkarni</strong>
+            <p class="mb-0">Web Developer &middot; MERN Stack</p>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-unstyled mb-0 foot-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <a href="mailto:kulkarnivivek8840@gmail.com">kulkarnivivek8840@gmail.com</a><br/>
+            <a href="tel:+917020468950">+91-7020468950</a><br />
+            <a
+              data-link="linkedin"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer">LinkedIn
+            </a> &middot;
+            <a
+              data-link="github"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer">GitHub
+            </a>
+          </div>
+        </div>
+        <p class="copy">
+          &copy; <span id="year">2026</span> Vivek Kulkarni. Ichalkaranji, Maharashtra, India.
+        </p>
+      </div>
+    </footer>
+
+    <button id="toTop" class="to-top" aria-label="Back to top">
+      <span class="ico ico-up" aria-hidden="true"></span>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
